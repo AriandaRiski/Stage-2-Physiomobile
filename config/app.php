@@ -185,4 +185,6 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    // access key for API
+    'api_access_key' => env('API_ACCESS_KEY', 'defaultkey'),
 ];
